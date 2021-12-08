@@ -87,7 +87,6 @@
 .card__plan__left__side__information--title {
    font-weight: 900;
    height: auto;
-   background-color: beige;
 }
 
 .card__plan__left__side__information--price {
@@ -139,6 +138,7 @@
 @media (max-width:475px){
     .card {
         width: 100%;
+        margin: 2rem 2rem;
     }
 
     .card__plan__left__side__information--title {
