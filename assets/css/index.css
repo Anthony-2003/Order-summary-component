@@ -34,7 +34,6 @@
 .card {
     background-color: #fff;
     width: 23.5%;
-    max-width: 23.5%;
     margin-top: 5%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -63,6 +62,7 @@
 .card__information__paragraph {
     padding: 0 3rem;
     text-align: center;
+    font-size: 16px;
 }
 
 .card__plan {
@@ -84,8 +84,10 @@
     margin-left: 8%;
 }
 
-.card__plan__left__side__information--paragraph {
+.card__plan__left__side__information--title {
    font-weight: 900;
+   height: auto;
+   background-color: beige;
 }
 
 .card__plan__left__side__information--price {
@@ -118,4 +120,28 @@
     background-color: transparent;
     color: var(--Desaturated-blue);
     margin-bottom: 1rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 1440px){
+    .card {
+        width: 35%;
+    }
+}
+
+@media (max-width:1024px){
+    .card{
+        width: 40%;
+    }
+}
+
+@media (max-width:475px){
+    .card {
+        width: 100%;
+    }
+
+    .card__plan__left__side__information--title {
+       font-size: 15px;
+    }
 }
