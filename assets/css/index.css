@@ -93,6 +93,10 @@
     color: var(--Desaturated-blue);
 }
 
+.card__plan__right__side__link:hover{
+    color:#A39DF5;
+}
+
 .card__buttons {
     display: flex;
     justify-content: center;
@@ -114,12 +118,24 @@
  box-shadow:  -1px 22px 29px rgba(56, 40, 224, 0.3);
 }
 
+.card__proceed__btn:hover{
+   background-color: #A39DF5;
+   cursor: pointer;
+}
+
 .card__cancel__btn {
     border: none;
     background-color: transparent;
     color: var(--Desaturated-blue);
     margin-bottom: 1rem;
 }
+
+.card__plan__right__side__link:hover,
+.card__cancel__btn:hover
+{
+  cursor: pointer;
+}
+
 
 /*Responsive*/
 
